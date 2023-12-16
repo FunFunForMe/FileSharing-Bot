@@ -55,14 +55,24 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/CodeXBotz")
-        self.LOGGER(__name__).info(f""" \n\n       
-░█████╗░░█████╗░██████╗░███████╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
-██╔══██╗██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
-██║░░╚═╝██║░░██║██║░░██║█████╗░░░╚███╔╝░██████╦╝██║░░██║░░░██║░░░░░███╔═╝
-██║░░██╗██║░░██║██║░░██║██╔══╝░░░██╔██╗░██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
-╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
-░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/HebatLuBoy")
+        self.LOGGER(__name__).info(f""" \n\n
+FFFFFFFFFFFFFFFFFFFFFF                                  FFFFFFFFFFFFFFFFFFFFFF                                  FFFFFFFFFFFFFFFFFFFFFF                                  MMMMMMMM               MMMMMMMM                    
+F::::::::::::::::::::F                                  F::::::::::::::::::::F                                  F::::::::::::::::::::F                                  M:::::::M             M:::::::M                    
+F::::::::::::::::::::F                                  F::::::::::::::::::::F                                  F::::::::::::::::::::F                                  M::::::::M           M::::::::M                    
+FF::::::FFFFFFFFF::::F                                  FF::::::FFFFFFFFF::::F                                  FF::::::FFFFFFFFF::::F                                  M:::::::::M         M:::::::::M                    
+  F:::::F       FFFFFFuuuuuu    uuuuuunnnn  nnnnnnnn      F:::::F       FFFFFFuuuuuu    uuuuuunnnn  nnnnnnnn      F:::::F       FFFFFFooooooooooo   rrrrr   rrrrrrrrr   M::::::::::M       M::::::::::M    eeeeeeeeeeee    
+  F:::::F             u::::u    u::::un:::nn::::::::nn    F:::::F             u::::u    u::::un:::nn::::::::nn    F:::::F           oo:::::::::::oo r::::rrr:::::::::r  M:::::::::::M     M:::::::::::M  ee::::::::::::ee  
+  F::::::FFFFFFFFFF   u::::u    u::::un::::::::::::::nn   F::::::FFFFFFFFFF   u::::u    u::::un::::::::::::::nn   F::::::FFFFFFFFFFo:::::::::::::::or:::::::::::::::::r M:::::::M::::M   M::::M:::::::M e::::::eeeee:::::ee
+  F:::::::::::::::F   u::::u    u::::unn:::::::::::::::n  F:::::::::::::::F   u::::u    u::::unn:::::::::::::::n  F:::::::::::::::Fo:::::ooooo:::::orr::::::rrrrr::::::rM::::::M M::::M M::::M M::::::Me::::::e     e:::::e
+  F:::::::::::::::F   u::::u    u::::u  n:::::nnnn:::::n  F:::::::::::::::F   u::::u    u::::u  n:::::nnnn:::::n  F:::::::::::::::Fo::::o     o::::o r:::::r     r:::::rM::::::M  M::::M::::M  M::::::Me:::::::eeeee::::::e
+  F::::::FFFFFFFFFF   u::::u    u::::u  n::::n    n::::n  F::::::FFFFFFFFFF   u::::u    u::::u  n::::n    n::::n  F::::::FFFFFFFFFFo::::o     o::::o r:::::r     rrrrrrrM::::::M   M:::::::M   M::::::Me:::::::::::::::::e 
+  F:::::F             u::::u    u::::u  n::::n    n::::n  F:::::F             u::::u    u::::u  n::::n    n::::n  F:::::F          o::::o     o::::o r:::::r            M::::::M    M:::::M    M::::::Me::::::eeeeeeeeeee  
+  F:::::F             u:::::uuuu:::::u  n::::n    n::::n  F:::::F             u:::::uuuu:::::u  n::::n    n::::n  F:::::F          o::::o     o::::o r:::::r            M::::::M     MMMMM     M::::::Me:::::::e           
+FF:::::::FF           u:::::::::::::::uun::::n    n::::nFF:::::::FF           u:::::::::::::::uun::::n    n::::nFF:::::::FF        o:::::ooooo:::::o r:::::r            M::::::M               M::::::Me::::::::e          
+F::::::::FF            u:::::::::::::::un::::n    n::::nF::::::::FF            u:::::::::::::::un::::n    n::::nF::::::::FF        o:::::::::::::::o r:::::r            M::::::M               M::::::M e::::::::eeeeeeee  
+F::::::::FF             uu::::::::uu:::un::::n    n::::nF::::::::FF             uu::::::::uu:::un::::n    n::::nF::::::::FF         oo:::::::::::oo  r:::::r            M::::::M               M::::::M  ee:::::::::::::e  
+FFFFFFFFFFF               uuuuuuuu  uuuunnnnnn    nnnnnnFFFFFFFFFFF               uuuuuuuu  uuuunnnnnn    nnnnnnFFFFFFFFFFF           ooooooooooo    rrrrrrr            MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee 
                                           """)
         self.username = usr_bot_me.username
         #web-response
